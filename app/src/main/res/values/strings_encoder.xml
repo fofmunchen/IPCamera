@@ -1,0 +1,66 @@
+<resources>
+    <string name="pref_setting_encoder_settings">编码参数配置</string>
+    <string name="pref_encoder_fmt">fmt</string>
+    <string name="pref_encoder_frame_rate">frame_rate</string>
+    <string name="pref_encoder_level">level</string>
+    <string name="pref_encoder_gop_size">gop_size</string>
+    <string name="pref_encoder_profile">profile</string>
+    <string name="pref_encoder_quality">quality</string>
+    <string-array name="pref_encoder_quality_list_titles">
+        <item>MPP_ENC_RC_QUALITY_WORST</item>
+        <item>MPP_ENC_RC_QUALITY_WORSE</item>
+        <item>MPP_ENC_RC_QUALITY_MEDIUM</item>
+        <item>MPP_ENC_RC_QUALITY_BETTER</item>
+        <item>MPP_ENC_RC_QUALITY_BEST</item>
+        <item>MPP_ENC_RC_QUALITY_CQP</item>
+    </string-array>
+    <string-array name="pref_encoder_quality_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="pref_encoder_qp_init">qp_init</string>
+    <string name="pref_encoder_qp_min">qp_min</string>
+    <string name="pref_encoder_qp_max">qp_max</string>
+    <string name="pref_encoder_qp_step">qp_step</string>
+    <string name="pref_encoder_rc_mode">rc_mode</string>
+    <string-array name="pref_encoder_rc_mode_list_titles">
+        <item>MPP_ENC_RC_MODE_VBR</item>
+        <item>MPP_ENC_RC_MODE_CBR</item>
+    </string-array>
+    <string-array name="pref_encoder_rc_mode_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_encoder_width_height_list_titles">
+        <item>1920*1080</item>
+        <item>1280*720</item>
+        <item>640*480</item>
+    </string-array>
+    <string-array name="pref_encoder_width_height_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="pref_encoder_width">width</string>
+    <string name="pref_encoder_height">height</string>
+    <string name="pref_encoder_bit_rate">bit_rate</string>
+    <string name="pref_encoder_channel">channel</string>
+    <string name="pref_messages_to_save">设置要保存的值</string>
+    <string name="set">设置</string>
+    <string name="no">取消</string>
+    <string name="video_setting_activity_fail_get_encoder_parameter">编码器参数获取失败</string>
+    <string-array name="pref_encoder_channel_list_titles">
+        <item>MAIN STREAM</item>
+        <item>IOT STREAM</item>
+        <item>RTP STREAM</item>
+    </string-array>
+    <string-array name="pref_encoder_channel_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

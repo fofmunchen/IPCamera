@@ -1,0 +1,112 @@
+<resources>
+
+
+
+    <string name="crash_report">Application Crashed:</string>
+
+    <string name="toastFailed">Failed!</string>
+    <string name="buttonOp">More&#8230;</string>
+
+    <!-- For Simple Config Layout Interface -->
+    <string name="wifi_scan">Scan Wi-Fi Network</string>
+    <string name="pin_text">Input PIN</string>
+    <string name="qrcode_desc">QRCode</string>
+    <string name="qrcode_title">QRCode Scan</string>
+    <string name="qrcode_cancel">Cancel</string>
+    <string name="start_config">Start</string>
+    <string name="stop_config">Press to Stop</string>
+    <string name="txt_location">"请先打开位置开关"</string>
+
+    <!-- For Simple Control Layout Interface -->
+    <string name="dev_discovery">Connected Device</string>
+    <string name="rename_dev">Rename Device</string>
+    <string name="del_prof">Remove Device</string>
+
+    <!-- Button label to connect to a wifi network-->
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <!--  !!!!!!!! vpn_connect_toTitle of VPN connect dialog -->
+    <string name="wifi_connect_to">Connect to %s</string>
+    <!-- Wi-Fi IP address label -->
+    <string name="ip_address">IP address</string>
+    <!-- Label for the signal strength -->
+    <string name="signal">Signal strength</string>
+
+    <!-- Button caption to forget a wifi network -->
+    <string name="forget_network">Forget</string>
+    <!-- Label for status of connection -->
+    <string name="wifi_status">Status</string>
+    <!--Wi-Fi settings screen, summary text for network when connected -->
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting&#8230;</string>
+    <!-- Label for link speed (wifi) -->
+    <string name="wifi_link_speed">Speed</string>
+    <!-- Verbose wifi signal strength.  This is the best out of 4 levels. -->
+    <string name="wifi_signal_3">Excellent</string>
+    <!-- Verbose wifi signal strength.  This is the 2nd best out of 4 levels. -->
+    <string name="wifi_signal_2">Good</string>
+    <!-- Verbose wifi signal strength.  This is the 3rd best out of 4 levels. -->
+    <string name="wifi_signal_1">Fair</string>
+    <!-- Verbose wifi signal strength.  This is the worst out of 4 levels. -->
+    <string name="wifi_signal_0">Poor</string>
+    <!-- Label for the security of a wifi network -->
+    <string name="security">Security</string>
+    <!-- Value for the wifi security.  This means no encryption. -->
+    <string name="wifi_security_open">Open</string>
+    <!-- Value for the wifi security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Value for the wifi security -->
+    <string name="wifi_security_wpa">WPA</string>
+    <!-- Value for the wifi security -->
+    <string name="wifi_security_wpa2">WPA2</string>
+    <!-- Value for the wifi security -->
+    <string name="wifi_security_wpa_eap">WPA-EAP</string>
+    <!-- Value for the wifi security -->
+    <string name="wifi_security_ieee8021x">IEEE8021X</string>
+
+
+    <string name="please_type_passphrase">Wireless password</string>
+    <string name="wifi_show_password">Show password.</string>
+
+    <string name="wifi_change_password">Change password</string>
+    <string name="button_change_password">Modify</string>
+    <!-- An edit field's grayed out value when it has not been modified -->
+    <string name="wifi_password_unchanged">(unchanged)</string>
+    <!-- Button caption to save a configuration wifi -->
+    <string name="wifi_save_config">Save</string>
+
+    <string name="adhoc_not_supported_yet">AdHoc is not supported by Android platform yet!</string>
+
+    <string name="dummy_content_description">""</string>
+
+
+
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_general">General</string>
+    <string name="pref_config_params">Configure Parameters</string>
+
+    <string name="title_not_send_bcast_ssid">Do not send SSID</string>
+    <string name="title_pack_type">Packet Type</string>
+    <string name="title_config_max_time">Maxium Configuring Time(ms):</string>
+    <string name="title_old_mode_config_time">Old Mode Configuring Time(ms):</string>
+    <string name="title_profile_rounds">Profile Continuous Sending Rounds:</string>
+    <string name="title_profile_inteval">Profile Sending Rounds Time Interval(ms):</string>
+    <string name="title_packet_inteval">Packet Sending Time Interval(ms):</string>
+    <string name="title_packet_except">This value is invalid for Samsung-G9008.</string>
+    <string name="title_packet_times">Each Packet Sending Counts:</string>
+    <string name="config_max_time">120000</string>
+    <string name="old_mode_config_time">0</string>
+    <string name="profile_rounds_val">1</string>
+    <string name="profile_inteval_val">1000</string>
+    <string name="packet_inteval_val">0</string>
+    <string name="packet_counts_val">1</string>
+
+    <string name="pref_app_version">Application Version</string>
+
+</resources>

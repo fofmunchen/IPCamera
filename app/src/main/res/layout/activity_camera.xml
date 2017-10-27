@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.rockchip.tutk.activity.CameraActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.rockchip.tutk.view.NavController
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:id="@+id/controlPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/control_left_up"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/left_up_icon" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:id="@+id/control_up"
+                    android:layout_height="50dp"
+                    android:src="@drawable/up_icon" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:id="@+id/control_up_right"
+                    android:layout_height="50dp"
+                    android:src="@drawable/up_right_icon" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/control_left"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/left_press" />
+                <ImageView
+                    android:id="@+id/control_reset"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="invisible"
+                    android:src="@drawable/sign_sync_icon" />
+                <ImageView
+                    android:id="@+id/control_right"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/right_icon" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/control_left_down"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/left_down_press" />
+                <ImageView
+                    android:id="@+id/control_down"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/down_press" />
+                <ImageView
+                    android:id="@+id/control_right_down"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/right_down_icon" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/control_setting"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/runner" />
+        
+
+    </LinearLayout>
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:id="@+id/control_play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/control_screen"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:src="@drawable/screen_scale" />
+    <TextView
+        android:id="@+id/txt_play_resolution"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/rec_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/rec_rate"
+        style="@style/textAppearanceBaseContent"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:padding="3dp"
+        android:textSize="15dp"
+        />
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/take_picture"
+            android:src="@drawable/camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageButton
+            android:id="@+id/video_sound"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/no_sound"
+            android:text="Sound "
+            />
+        <ImageButton
+            android:id="@+id/recordVideo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/play_24"/>
+        <ImageButton
+            android:id="@+id/speak"
+            android:text="对讲"
+            android:src="@drawable/icon_lan_video_sound_off_pressed"
+            android:scaleType="centerInside"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageButton
+            android:id="@+id/btn_config"
+            android:text="@string/txt_config"
+            android:src="@drawable/settings"
+            android:scaleType="centerInside"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+</RelativeLayout>

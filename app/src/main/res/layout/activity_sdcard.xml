@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:ellipsize="middle"
+        android:gravity="left|center_vertical"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_name"
+        android:background="@android:color/darker_gray" />
+
+    <ProgressBar
+        android:id="@+id/pb_wait"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/img_divider"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_warn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_divider"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="left|center_vertical"
+        android:padding="18dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/txt_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_warn"
+        android:background="@android:color/transparent"
+        android:tag="@string/format"
+        android:text="@string/format"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_format"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/txt_format"
+        android:background="@android:color/transparent"
+        android:text="@string/txt_cancel"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+</RelativeLayout>

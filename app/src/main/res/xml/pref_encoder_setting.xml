@@ -1,0 +1,75 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_encoder_channel_list_titles"
+        android:entryValues="@array/pref_encoder_channel_list_values"
+        android:key="encoder_channel"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_encoder_channel" />
+
+    <!--<EditTextPreference
+        android:key="encoder_fmt"
+        android:summary="XXX"
+        android:title="@string/pref_encoder_fmt" />-->
+
+    <Preference
+        android:key="encoder_frame_rate"
+        android:title="@string/pref_encoder_frame_rate" />
+
+    <Preference
+        android:key="encoder_level"
+        android:title="@string/pref_encoder_level" />
+
+    <Preference
+        android:key="encoder_gop_size"
+        android:title="@string/pref_encoder_gop_size" />
+
+    <Preference
+        android:key="encoder_profile"
+        android:title="@string/pref_encoder_profile" />
+
+
+    <ListPreference
+        android:key="encoder_quality"
+        android:entries="@array/pref_encoder_quality_list_titles"
+        android:entryValues="@array/pref_encoder_quality_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_encoder_quality" />
+    <Preference
+        android:key="encoder_qp_init"
+        android:title="@string/pref_encoder_qp_init" />
+    <Preference
+        android:key="encoder_qp_step"
+        android:title="@string/pref_encoder_qp_step" />
+    <Preference
+        android:key="encoder_qp_min"
+        android:title="@string/pref_encoder_qp_min" />
+    <Preference
+        android:defaultValue="true"
+        android:key="encoder_qp_max"
+        android:title="@string/pref_encoder_qp_max" />
+    <ListPreference
+        android:defaultValue="true"
+        android:key="encoder_rc_mode"
+        android:entries="@array/pref_encoder_rc_mode_list_titles"
+        android:entryValues="@array/pref_encoder_rc_mode_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_encoder_rc_mode" />
+    <ListPreference
+        android:defaultValue="false"
+        android:key="encoder_width_height"
+        android:entries="@array/pref_encoder_width_height_list_titles"
+        android:entryValues="@array/pref_encoder_width_height_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_encoder_width_height" />
+    <Preference
+        android:key="encoder_bit_rate"
+        android:title="@string/pref_encoder_bit_rate"/>
+
+
+</PreferenceScreen>

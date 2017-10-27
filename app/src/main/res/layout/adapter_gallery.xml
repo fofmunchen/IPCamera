@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+	<ImageView
+        android:id="@+id/child_image"
+        android:layout_width="@dimen/x80"
+        android:layout_height="@dimen/y56"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop" />
+
+	<ImageView
+		android:id="@+id/child_icon"
+		android:layout_width="@dimen/x22"
+		android:layout_height="@dimen/y15"
+		android:adjustViewBounds="true"
+		android:contentDescription="Icon" />
+</FrameLayout>

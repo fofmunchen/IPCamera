@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_fragment_device_qrcode"
+        app:showAsAction="withText|ifRoom"
+        android:icon="@drawable/qrcode_img"
+        android:title="@string/fragment_device_menu_scan" />
+    <item
+        android:id="@+id/menu_fragment_device_plus"
+        app:showAsAction="withText|ifRoom"
+        android:icon="@drawable/plus"
+        android:title="@string/fragment_device_menu_setwifi" />
+    <item
+        android:id="@+id/menu_fragment_device_reload"
+        app:showAsAction="withText|ifRoom"
+        android:icon="@drawable/reload_alt_24x28"
+        android:title="@string/fragment_device_menu_reflush" />
+
+</menu>

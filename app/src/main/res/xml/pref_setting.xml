@@ -1,0 +1,122 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:key="device_name"
+        android:summary="XXX"
+        android:title="设备名称" />
+    <Preference
+        android:key="device_password"
+        android:title="修改密码"/>
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_resolution_list_titles"
+        android:entryValues="@array/pref_resolution_list_values"
+        android:key="resolution_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="设备录像分辨率" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_record_time_list_titles"
+        android:entryValues="@array/pref_record_time_list_values"
+        android:key="record_time_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="循环录像时长" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_exposure_list_titles"
+        android:entryValues="@array/pref_exposure_list_values"
+        android:key="exposure_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="曝光设置" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_white_balance_list_titles"
+        android:entryValues="@array/pref_white_balance_list_values"
+        android:key="white_balance_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="白平衡" />
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="water_mark_switch"
+        android:summary="在视频/图像中显示水印"
+        android:title="水印设置" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="moving_switch"
+        android:summary="打开或关闭移动侦测功能"
+        android:title="移动侦测" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_move_list_titles"
+        android:entryValues="@array/pref_move_list_values"
+        android:key="move_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/txt_move_sensitivity" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="ODT_switch"
+        android:summary="@string/txt_odt_warn"
+        android:title="@string/txt_odt" />
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/pref_odt_list_titles"
+        android:entryValues="@array/pref_odt_list_values"
+        android:key="ODT_level"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/txt_odt_level" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="3DNR_switch"
+        android:summary="打开或关闭3DNR"
+        android:title="3DNR" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_3dnr_list_titles"
+        android:entryValues="@array/pref_3dnr_list_values"
+        android:key="3DNR_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/txt_3dnr_level" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="IDC_switch"
+        android:summary="打开或关闭IDC"
+        android:title="IDC" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="sound_switch"
+        android:summary="打开或关闭SD卡录像声音"
+        android:title="录像声音" />
+    <Preference
+        android:key="format"
+        android:summary="@string/format_summary"
+        android:title="格式化"/>
+    <Preference
+        android:key="sdcardInfo"
+        android:title="sdcard"
+        android:summary="@string/jump_record_list"/>
+    <Preference
+        android:key="update"
+        android:title="@string/txt_update"/>
+    <Preference
+        android:key="encoder_settings"
+        android:title="@string/pref_setting_encoder_settings"/>
+    <Preference
+        android:key="device_reboot"
+        android:title="@string/pref_setting_device_reboot"/>
+    <Preference
+        android:key="device_recovery"
+        android:title="@string/pref_setting_device_recovery"/>
+</PreferenceScreen>
